@@ -1,0 +1,21 @@
+:root {
+    --font: 'Ubuntu', sans-serif;
+    --bg-color: #252525;
+    --color-text: #ffffff;
+    --color-logo: #F1C40F;
+    --color-border: #C21010;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    height: 60px; 
+    font-family: var(--font);
+    background-color: var(--bg-color);
+    color: var(--color-text); 
+    box-shadow: 0px -6px 69px -18px rgba(0,0,0,0.6);
+    margin-top: 50px;
+    z-index: 50;
+}
